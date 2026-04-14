@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JNet - Internet Cepat & Elegan</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- CSS External -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <!-- Modern WiFi SVG -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0f3057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 8px;">
+        <path d="M5 12.55a11 11 0 0 1 14 0"/>
+        <path d="M1.42 9a16 16 0 0 1 21.16 0"/>
+        <path d="M8.53 16.11a6 6 0 0 1 6.95 0"/>
+        <circle cx="12" cy="20" r="1"/>
+      </svg>
+      JNet
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#harga">Harga</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div>
+      <h1>Internet Cepat & Elegan</h1>
+      <p>Nikmati koneksi WiFi stabil dan cepat, untuk rumah maupun kantor Anda</p>
+      <button onclick="scrollToSection('harga')">Lihat Paket</button>
+    </div>
+  </section>
+
+  <!-- Harga Section -->
+  <section id="harga">
+    <h2>Paket & Harga</h2>
+    <div class="pricing">
+      <div class="card">
+        <h3>Paket Basic</h3>
+        <p>Kecepatan hingga 10 Mbps</p>
+        <div class="price">Rp150.000 / bln</div>
+      </div>
+      <div class="card">
+        <h3>Paket Standard</h3>
+        <p>Kecepatan hingga 50 Mbps</p>
+        <div class="price">Rp300.000 / bln</div>
+      </div>
+      <div class="card">
+        <h3>Paket Premium</h3>
+        <p>Kecepatan hingga 100 Mbps</p>
+        <div class="price">Rp500.000 / bln</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak Section -->
+  <section id="kontak">
+    <h2>Kontak Kami</h2>
+    <div class="contact-container">
+      <!-- Info Kontak -->
+      <div class="contact-info">
+        <p>📞 <strong>Telepon:</strong> +62 85697342551</p>
+        <p>✉️ <strong>Email:</strong> info@jnet.co.id</p>
+        <p>📍 <strong>Alamat:</strong> Jl.Salak IV, No.99 D, Pamulang</p>
+      </div>
+
+      <!-- Form Kontak -->
+      <div class="contact-form">
+        <form onsubmit="return handleSubmit(event)">
+          <input type="text" name="name" placeholder="Nama" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="message" rows="5" placeholder="Pesan" required></textarea>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>Tentang Kami</h2>
+    <div class="about">
+      <p>
+        JNet hadir untuk memberikan layanan internet cepat dan stabil dengan desain estetis dan pengalaman yang nyaman.
+        Kami menyediakan paket sesuai kebutuhan dengan harga terjangkau dan dukungan pelanggan profesional.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 JNet. All rights reserved.
+  </footer>
+
+  <!-- JS External -->
+  <script src="script.js"></script>
+</body>
+</html>
